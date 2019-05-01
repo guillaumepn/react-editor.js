@@ -14,8 +14,7 @@
     "test": "NODE_ENV=test mocha",
     "test:watch": "NODE_ENV=test mocha --watch",
     "prepublishOnly": "npm run lint && npm run clean && npm run build && npm run build:umd",
-    "prepare": "npm run build",
-    "postinstall": "npm run build"
+    "prepare": "npm install"
   },
   "keywords": [
     "react",
