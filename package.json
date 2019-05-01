@@ -13,8 +13,7 @@
     "lint": "eslint src",
     "test": "NODE_ENV=test mocha",
     "test:watch": "NODE_ENV=test mocha --watch",
-    "prepublishOnly": "npm run lint && npm run clean && npm run build && npm run build:umd",
-    "prepare": "npm run prepublishOnly"
+    "prepublishOnly": "npm run lint && npm run clean && npm run build && npm run build:umd"
   },
   "keywords": [
     "react",
